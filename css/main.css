@@ -1,0 +1,47 @@
+:root
+{
+    --plano-fundo: #FFF;
+    --titulo: #000;
+    --texto-imagens: #00F;
+}
+
+.escuro
+{
+    --plano-fundo: #000;
+    --titulo: #FFF;
+}
+
+body{
+    background-color: var(--plano-fundo);
+}
+
+h1
+{
+    color: var(--titulo);
+}
+
+p
+{
+    color: var(--titulo);
+}
+
+
+
+.container
+{
+    position: relative;
+}
+
+.container h2
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: var(--texto-imagens);
+}
+
+.container img
+{
+    width: 50%;
+    height: 50%;
+}
